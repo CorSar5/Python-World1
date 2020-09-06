@@ -1,0 +1,10 @@
+n1 = int(input('Um valor:'))
+n2 = int(input('Outro valor:'))
+s = n1+n2
+m = n1*n2
+p = n1/n2
+pi = n1//n2
+e = n1**n2
+
+print('A soma é {}\n O produto é {}\n A divisão dá {} '.format(s,m,p), end=' ')
+print(' Divisão inteira {}\n E potência {}'.format(pi, e))

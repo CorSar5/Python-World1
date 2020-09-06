@@ -1,0 +1,18 @@
+#\033[0;30;41m
+#\033[4;33;44m
+#\033[1;35;43m
+#\033[30;42m
+#\033[m
+#\033[7:30m
+#print('\033[7;33;44mHi, World!\033[m')
+#a = 3
+#b = 5
+#print('OS valores são \033[1;33;44m{}\033[m e \033[1;34m{}\033[m'.format(a, b))
+
+nome = 'Gustavo'
+cores= {'limpa':'\033[m',
+        'amarelo':'\033[33m',
+        'azul': '\033[34m' ,
+        'pretoebranco' : '\033[7;30m'}
+
+print('Olá! Muito prazer em conhecer-te, {}{}{}!'.format(cores['pretoebranco'], nome, cores['limpa']))
